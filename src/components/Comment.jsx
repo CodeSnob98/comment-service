@@ -45,6 +45,7 @@ export default function Comment(props) {
   function cancel() {
     setShowIp(false);
     setShowComment(true);
+    setEditClicked(false);
   }
   return (
     <div className="display-row">
